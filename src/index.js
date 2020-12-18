@@ -56,7 +56,7 @@ const routes = [
 ];
 
 // change the value of mode: if "A", B -> A, else B->B
-const router = new UniversalRouter(routes, { context: { mode: "A" } });
+const router = new UniversalRouter(routes, { context: { mode: "B" } });
 
 const root = document.getElementById("root");
 
