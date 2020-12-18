@@ -13,9 +13,9 @@
 ## Deploy Codesandbox
 
 Insert "box"
-<githubbox.com/ndrean/universal-router-redict>
+https://githubbox.com/ndrean/universal-router-redict>
 
 ## Deploy on Staclblitz
 
 Append the repo after uri
-<stackblitz.com/github/ndrean/universal-router-redict>
+https://stackblitz.com/github/ndrean/universal-router-redict>
