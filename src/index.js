@@ -37,20 +37,25 @@ const routes = [
   },
   {
     path: "/b",
+    // to protect the results
     action: ({ mode }) => {
       if (mode === "A") {
         console.log("redirected to /A");
         return { redirect: "/" };
-      } else {
-        console.log("normal");
-        return (
-          <>
-            <Nav />
-            <br />
-            <p>B</p>
-          </>
-        );
       }
+      return fetch("https://jsonplaceholder.typicode.com/users")
+        .then((res) => res.json())
+        .then((data) => {
+          return (
+            <>
+              <Nav />
+              <br />
+              {data.map((user) => (
+                <p key={user.id}> {user.email}</p>
+              ))}
+            </>
+          );
+        });
     },
   },
 ];
