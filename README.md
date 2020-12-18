@@ -9,3 +9,13 @@
 > Needs external state manager (eg Mobx) to pass the props
 
 > Bug with redirection with `next()`. Don't use `next()` with `{redirect: "/"}`, but recode the page to be rendered.
+
+## Deploy Codesandbox
+
+Insert "box"
+<githubbox.com/ndrean/universal-router-redict>
+
+## Deploy on Staclblitz
+
+Append the repo after uri
+<stackblitz.com/github/ndrean/universal-router-redict>
