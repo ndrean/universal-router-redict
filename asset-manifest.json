@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/universal-router-redict/static/js/main.fa3a02a1.chunk.js",
-    "main.js.map": "/universal-router-redict/static/js/main.fa3a02a1.chunk.js.map",
+    "main.js": "/universal-router-redict/static/js/main.437e2211.chunk.js",
+    "main.js.map": "/universal-router-redict/static/js/main.437e2211.chunk.js.map",
     "runtime-main.js": "/universal-router-redict/static/js/runtime-main.1b805693.js",
     "runtime-main.js.map": "/universal-router-redict/static/js/runtime-main.1b805693.js.map",
     "static/js/2.4db3886e.chunk.js": "/universal-router-redict/static/js/2.4db3886e.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.1b805693.js",
     "static/js/2.4db3886e.chunk.js",
-    "static/js/main.fa3a02a1.chunk.js"
+    "static/js/main.437e2211.chunk.js"
   ]
 }
