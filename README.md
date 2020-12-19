@@ -8,7 +8,7 @@
 
 > Needs external state manager (eg Mobx) to pass the props
 
-> Bug with redirection with `next()`. Don't use `next()` with `{redirect: "/"}`, but recode the page to be rendered.
+> Redirection. Be careful there.
 
 ## Deploy Codesandbox
 
